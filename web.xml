@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="web.xsl"?>
+
+
+
+
+<web>
+    <strings>
+        <unfold>Desplegar todo</unfold>
+        <fold>Cerrar todo</fold>
+        <company>Compañía</company>
+        <task>Tarea</task>
+    </strings>
+
+    <title>
+        Web personal y curriculum de José María Rodríguez
+    </title>
+    
+    <welcome>
+        Web personal y curriculum de José María Rodríguez
+    </welcome>
+
+    <personal tag="Información Personal">
+        <name tag="Nombre">Rodríguez Sáez, José María</name>
+        <contact tag="Contacto">jmrs{arroba}jmrs{punto}es o josem.rodriguez.saez{arroba}gmail{punto}com</contact>
+        <birthplace/>
+        <linkedin/>
+    </personal>
+    
+    <experience tag="Experience">
+        <job dates= "June 2014 - Ahora" title="Software Engineer">
+            <company name="Ericsson Television Ltd." web="http://www.ericsson.com/"/>
+            <task text="Desarrollo de software para dispositivos de radiodifusion"/>
+        </job>
+        
+        
+        <job dates= "Marzo de 2012 - Junio 2014" title="Software Engineer">
+            <company name="Emutex Ltd." web="http://www.emutex.com/"/>
+            <task text="Programación para dispositivos embebidos"/>
+        </job>
+        
+        <job dates= "Mayo de 2008 - Marzo de 2012" title="Software Engineer">
+            <company name="Ingeniería y Control Remoto S.A." web="http://www.icr-sa.com/"/>
+            <task text="Analista-Desarrollador Plataforma .Net">
+                <subtask>Sofware de gestión para comunidades de regantes. Microsoft Visual Studio 2005 y 2010. Framework 2.0 y 4.0. Base de datos PostgreSQL.</subtask>
+                <subtask>Software para telecontrol mediante SMS. Framework 3.5. Base de datos SQLite.</subtask>
+            </task>
+            <task text="Analista-Desarrollador Python">
+                <subtask>Solución hardware/software para telecontrol y comunicaciones inalámbricas. Protocolos Modbus y Wavenis. Hardware embebido formato PC/104 con limitaciones de memoria y consumo. Sistema operativo Linux basado en Debian. Software multihebra, portable Windows/Linux, acceso a bajo nivel usando subprograma en C y estructurado en capas.</subtask>
+            </task>
+            <task text="Programador web">
+                <subtask>Realización de páginas web empleando Joomla 1.5, PHP y Python desarrollando plugins en PHP para Joomla personalizados a la necesidad del cliente y de integración con nuestro sistema de telecontrol.</subtask>
+            </task>
+        </job>
+        
+        <job dates= "Enero de 2008 - Mayo de 2008" title="Becario">
+            <company name="Departamento de Matemáticas Aplicadas a la Arquitectura." web="https://www.ugr.es/~mateapli/"/>
+            <task text="Becario para proyecto de innovación docente.">
+                <subtask>Instalación y mantenimiento de dos servidores OpenSuse. Virtualización empleando Xen. Sistema de archivos LVM sobre hardware RAID. Instalación de LAMP. Migración al nuevo servidor.</subtask>
+                <subtask>Programación de sistema de identificación de alumnos, gestión de notas y listados empleando PHP y programación de mejoras en PHP y Flash</subtask>
+            </task>
+        </job>
+        
+    </experience>
+    
+</web>
+
